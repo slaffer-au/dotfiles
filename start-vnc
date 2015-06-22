@@ -1,0 +1,5 @@
+# Large for 27" Display
+echo `vnc4server :63 -nolisten -name slaffer-large -geometry 1900x1024`
+
+# Small for MBP Display 
+echo `vnc4server :64 -nolisten -name slaffer-mbp -geometry 1500x900`
