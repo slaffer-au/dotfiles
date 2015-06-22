@@ -153,7 +153,10 @@ zdd() {
 #PS1='${debian_chroot:+($debian_chroot)}\[\033[0;35m\]\u@\h\[\033[00m\]:\[\033[1;37m\]\w\[\033[00m\]\[\033[01;36m\]$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$'
 
 # two line.. full path
-PS1='\n${debian_chroot:+($debian_chroot)}\[\033[0;35m\][\w]\[\033[00m\]\[\033[01;33m\]\n\u@\[\e[32;1m\]\h\[\033[01;36m\]:$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$ '
+# PS1='\n${debian_chroot:+($debian_chroot)}\[\033[0;35m\][\w]\[\033[00m\]\[\033[01;33m\]\n\u@\[\e[32;1m\]\h\[\033[01;36m\]:$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$ '
+
+# two line.. full path no space between lines
+PS1='${debian_chroot:+($debian_chroot)}\[\033[0;35m\][\w]\[\033[00m\]\[\033[01;33m\]\n\u@\[\e[32;1m\]\h\[\033[01;36m\]:$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$ '
 
 #keep
 #PS1='${debian_chroot:+($debian_chroot)}\n\u@\[\e[32;1m\]\h\[\033[00m\]:\[\033[1;37m\]\w\[\033[00m\]\[\033[01;36m\]$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$ '
