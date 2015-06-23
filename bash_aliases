@@ -1,4 +1,68 @@
-# Bash Aliases
+################ 
+# Bash Aliases #
+################
 
-alias ls='ls -la --color=auto'
+# Environmentals
+
+alias l='la -a --color=auto'
+alias la='ls -la --color=auto'
+
+
+# RDU Switches
+alias sw1='ssh root@sw1'
+alias sw2='ssh root@sw2'
+alias sw3='ssh root@sw3'
+alias sw4='ssh root@sw4'
+alias sw5='ssh root@sw5'
+alias sw6='ssh root@sw6'
+alias sw7='ssh root@sw7'
+alias sw8='ssh root@sw8'
+alias sw9='ssh root@sw9'
+alias sw10='ssh root@sw10'
+alias sw11='ssh root@sw11'
+alias sw12='ssh root@sw12'
+alias sw13='ssh root@sw13'
+alias sw14='ssh root@sw14'
+alias sw15='ssh root@sw15'
+alias sw16='ssh root@sw16'
+alias sw17='ssh root@sw17'
+alias sw18='ssh root@sw18'
+alias sw19='ssh root@sw19'
+alias sw20='ssh root@sw20'
+alias sw21='ssh root@sw21'
+alias sw22='ssh root@sw22'
+alias sw23='ssh root@sw23'
+alias sw24='ssh root@sw24'
+alias sw25='ssh root@sw25'
+alias sw26='ssh root@sw26'
+alias sw27='ssh root@sw27'
+alias sw28='ssh root@sw28'
+
+# RDU Console Connections
+alias c.sw1='telnet comm1 6001'
+alias c.sw2='telnet comm1 6002'
+alias c.sw3='telnet comm1 6003'
+alias c.sw4='telnet comm1 6004'
+alias c.sw5='telnet comm1 6005'
+alias c.sw6='telnet comm1 6006'
+alias c.sw7='telnet comm1 6007'
+alias c.sw8='telnet comm1 6008'
+alias c.sw9='telnet comm1 7009'
+alias c.sw10='telnet comm1 7010'
+alias c.sw13='telnet comm1 6013'
+alias c.sw14='telnet comm1 6014'
+alias c.sw15='telnet comm1 6015'
+alias c.sw16='telnet comm1 6016'
+alias c.sw17='telnet comm3 6017'
+alias c.sw18='telnet comm3 6018'
+alias c.sw19='telnet comm3 6019'
+alias c.sw20='telnet comm3 6020'
+alias c.sw21='telnet comm3 6021'
+alias c.sw22='telnet comm3 6022'
+alias c.sw23='telnet comm3 6023'
+alias c.sw24='telnet comm3 6024'
+alias c.sw25='telnet comm3 6025'
+alias c.sw26='telnet comm3 6026'
+alias c.sw27='telnet comm3 6027'
+alias c.sw28='telnet comm3 6028'
 
