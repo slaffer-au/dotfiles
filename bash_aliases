@@ -4,7 +4,7 @@
 
 # Environmentals
 
-alias l='la -a --color=auto'
+alias l='ls -a --color=auto'
 alias la='ls -la --color=auto'
 
 
