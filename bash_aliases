@@ -5,6 +5,7 @@
 # Environmentals
 
 alias l='ls -a --color=auto'
+alias ls='ls --color=auto'
 alias la='ls -la --color=auto'
 
 
