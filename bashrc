@@ -156,8 +156,8 @@ zdd() {
 # PS1='\n${debian_chroot:+($debian_chroot)}\[\033[0;35m\][\w]\[\033[00m\]\[\033[01;33m\]\n\u@\[\e[32;1m\]\h\[\033[01;36m\]:$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$ '
 
 # two line.. full path no space between lines
-Roz="roz"
-if ["$HOSTNAME" = $Roz] : 
+
+if ["$HOSTNAME" = 'roz'] : 
 then
 	PS1='${debian_chroot:+($debian_chroot)}\[\033[0;35m\][\w]\[\033[00m\]\[\033[01;33m\]\n\u@\[\e[32;1m\]\h\[\033[01;36m\]:$(dirty_git_prompt)\[\033[1;36m\]$(clean_git_prompt)\[\033[00m\]\$ '
 else
