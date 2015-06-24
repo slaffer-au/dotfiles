@@ -31,6 +31,8 @@
 " Supporting code -------------------------------------------------------------
 " Preamble {{{
 
+syntax enable
+
 if !has("gui_running") && &t_Co != 88 && &t_Co != 256
     finish
 endif
