@@ -1,0 +1,74 @@
+#ifdef COLOR
+!*customization: -color
+#endif
+
+
+!  #bdd 2012-02-10 15:42:10 - - - - - - - - - - - - - - - - - - - -
+Xcursor.theme: Oxygen_Blue
+
+!  #bdd 2010-01-27 13:14:59 - - - - - - - - - - - - - - - - - - - -
+
+*colorBDMode: on
+*colorULMode: on
+*colorBD: red
+*colorUL: green
+
+!  #bdd 2010-01-27 13:14:59 - - - - - - - - - - - - - - - - - - - -
+
+*VT100*background: black
+*VT100*foreground: wheat
+*VT100*cursorColor: orchid
+
+! use this font for 1600x1200
+ xterm*VT100*font:-misc-fixed-medium-*-*-*-14-*-*-*-*-*-*-*
+
+xterm*background:tan
+xterm*foreground:wheat
+xterm*cursorColor:orchid
+xterm*fullCursor: true
+xterm*saveLines: 2000
+xterm*visualBell: true
+
+! #bdd do not change below it ruins the menus.
+! xterm*geometry: 80x25+20+20
+! xterm*titleBar: false
+! xterm*reverseVideo: false
+! xterm*scrollBar: false
+! xterm*reverseWrap: true
+! xterm*scrollTtyOutput: off
+! xterm*scrollKey: on
+!
+
+!                        !     %    ,-./      :     @      ~     ?     =
+!xterm*charClass:        33:48,37:48,44-47:48,58:48,64:48,126:48,63:48,61:48
+! minus the comma
+xterm*charClass:        33:48,37:48,45-47:48,58:48,64:48,126:48,63:48,61:48
+!xterm*charClass:        33:48,37:48,44-47:48,64:48,126:48
+
+VT100.Translations: #override\n\
+	<Key>BackSpace: string(0x7F)\n\
+	<Key>Delete: string("\033[3~")\n\
+	<Key>Home: string("\033[1~")\n\
+	<Key>End: string("\033[4~")
+    <KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+*ttyModes: erase ^? 
+
+!
+!xterm_color*reverseWrap: true
+xterm_color*VT100.Translations: #override\n\
+	<KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+
+! GVim great Colors.
+!                        !     %    ,-./      :     @      ~     ?     =
+Vim*charClass:        33:48,37:48,44-47:48,58:48,64:48,126:48,63:48,61:48
+
+!#Vim*background:	black
+!#Vim*foreground:	lightyellow
+!#Vim*font: -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-15-*5
+!Vim.geometry:	80x35
+!#Vim*menuBackground: black
+!#Vim*menuForeground: moccasin
+
+!#end
