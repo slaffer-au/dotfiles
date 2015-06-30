@@ -42,6 +42,7 @@ alias ll='ls  -al | more -f'
 alias lt='ls  -lGrt'
 alias lz='ls  -lGrS'
 alias lsd='ls  -d   */ .*/'
+alias la='ls -laG'
 
 alias cl='clear'
 alias du1='du -h -d1'
@@ -62,7 +63,7 @@ alias grinp='grep input\ err | grep -v 0\ input'
 
 PATH="/usr/local/bin:$HOME/bin:/sbin:$PATH"
 ENV=$HOME/.bashrc
-USERNAME="bdianni"
+USERNAME="slaffer"
 TERM="xterm"
 export USERNAME ENV PATH TERM
 
