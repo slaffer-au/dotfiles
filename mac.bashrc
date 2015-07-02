@@ -69,18 +69,18 @@ export USERNAME ENV PATH TERM
 
 PS1=" \n\u@\[\e[32;1m\]\h\[\e[0m\]:\w $ "
 
-if [[ "$TERM" != "screen" ]] && 
-        [[ "$SSH_CONNECTION" == "" ]]; then
-    # Attempt to discover a detached session and attach 
-    # it, else create a new session
-
-    WHOAMI=$(whoami)
-    if tmux has-session -t $WHOAMI 2>/dev/null; then
-        tmux -2 attach-session -t $WHOAMI
-    else
-        tmux -2 new-session -s $WHOAMI
-    fi
-else
+#if [[ "$TERM" != "screen" ]] && 
+#        [[ "$SSH_CONNECTION" == "" ]]; then
+#    # Attempt to discover a detached session and attach 
+#    # it, else create a new session
+#
+#    WHOAMI=$(whoami)
+#    if tmux has-session -t $WHOAMI 2>/dev/null; then
+#        tmux -2 attach-session -t $WHOAMI
+#    else
+#        tmux -2 new-session -s $WHOAMI
+#    fi
+#else
 
     # One might want to do other things in this case, 
     # here I print my motd, but only on servers where 
