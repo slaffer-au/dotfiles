@@ -81,16 +81,16 @@ PS1=" \n\u@\[\e[32;1m\]\h\[\e[0m\]:\w $ "
 #        tmux -2 new-session -s $WHOAMI
 #    fi
 #else
-
-    # One might want to do other things in this case, 
-    # here I print my motd, but only on servers where 
-    # one exists
-
-    # If inside tmux session then print MOTD
-    MOTD=/etc/motd.tcl
-    if [ -f $MOTD ]; then
-        $MOTD
-    fi
-fi
+#
+#    # One might want to do other things in this case, 
+#    # here I print my motd, but only on servers where 
+#    # one exists
+#
+#    # If inside tmux session then print MOTD
+#    MOTD=/etc/motd.tcl
+#    if [ -f $MOTD ]; then
+#        $MOTD
+#    fi
+#fi
 
 #end
