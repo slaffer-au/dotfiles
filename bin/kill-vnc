@@ -1,0 +1,3 @@
+#! /bin/bash
+echo `vnc4server -kill :63`
+echo `vnc4server -kill :64`

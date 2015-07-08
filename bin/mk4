@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#top
+xterm -geometry 100x30+1+26 &
+#xterm -geometry 100x30+282+28 &
+xterm -geometry 100x30-1+26 &
+
+
+
+#bottom
+xterm -geometry 100x30+1-1 &
+# xterm -geometry 100x30+282-35 &
+xterm -geometry 100x30-1-1 &
+
+
+#end
+

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#left
+xterm -geometry 90x25+0+26 &
+xterm -geometry 90x25+0+420 &
+xterm -geometry 90x25+0-0 &
+
+#right
+xterm -geometry 90x25-0+26 &
+xterm -geometry 90x25-0+420 &
+xterm -geometry 90x25-0-0 &
+
+#end
+

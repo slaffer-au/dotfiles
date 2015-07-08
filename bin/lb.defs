@@ -1,0 +1,15 @@
+#!/bin/bash
+# define variables for lb.* files
+
+
+X=xterm
+T=telnet
+FG=wheat
+G=geometry
+co=PaleGreen4
+ss=LightSteelBlue4
+ka=PaleGreen4
+th=LightSteelBlue4
+lg=LightGoldenrod4
+o3=orangered3
+o4=orangered4

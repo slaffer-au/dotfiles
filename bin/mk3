@@ -1,0 +1,11 @@
+#!/bin/sh
+#++     -+#
+#+-     --#
+
+xterm -geometry 106x25+15+30 &
+xterm -geometry 106x25+15+412 &
+xterm -geometry 106x25+15-15 &
+
+
+#end
+

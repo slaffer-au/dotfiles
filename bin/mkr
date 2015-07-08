@@ -1,0 +1,12 @@
+#!/bin/sh
+#++     -+#
+#+-     --#
+
+xterm -geometry 80x39+0+25 &
+xterm -geometry 80x39+0-0 &
+
+# old
+#xterm -geometry 80x40+0+0 &
+#xterm -geometry 80x40-0+0 &
+#end
+

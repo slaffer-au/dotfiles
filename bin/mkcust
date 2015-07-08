@@ -1,0 +1,9 @@
+#!/bin/bash
+#++     -+#
+#+-     --#
+
+#xterm -geometry 80x40+244+40 &
+xterm -bg khaki -fg black -geometry 80x39-0+27
+
+#end
+

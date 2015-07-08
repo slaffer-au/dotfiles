@@ -1,0 +1,9 @@
+#!/bin/bash
+#++     -+#
+#+-     --#
+
+#xterm -geometry 80x40+244+40 &
+xterm -geometry 146x25-0-0 &
+
+#end
+

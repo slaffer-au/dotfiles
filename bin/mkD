@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /home/barnaby/git/cumulus-docs/
+make html
+
+#end
+
