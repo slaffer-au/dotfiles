@@ -1,0 +1,140 @@
+Global {
+    edge = top
+    allign = center
+    margin = 0
+    widthtype = percent
+    width = 92
+    height = 30
+    transparent = true
+    tintcolor = #ffffff
+    alpha = 32
+    setdocktype = true
+    setpartialstrut = true
+    autohide = false
+    heightWhenHidden = 2
+    roundcorners = false
+    roundcornersradius = 7
+    layer = above
+    setlayer = false
+    maxelemheight = 24
+}
+
+Plugin {
+    type = dclock
+    config {
+        ShowSeconds = false
+        HoursView = 24
+        Action = xmessage Please define some command 
+    }
+}
+
+Plugin {
+    type = cpu
+    config {
+        Color = green
+    }
+}
+
+plugin {
+    type = taskbar
+    expand = true
+    config {
+        ShowIconified = true
+        ShowMapped = true
+        ShowAllDesks = false 
+        tooltips = true
+        IconsOnly = false
+        MaxTaskWidth = 150
+    }
+}
+
+plugin {
+    type = launchbar
+    expand = false
+    padding = 0
+    config {
+        button {
+            icon = gnome-terminal
+            tooltip = Terminal
+            action = xterm
+        }
+        button {
+            image = /opt/google/chrome/product_logo_48.png
+            tooltip = Google Chrome
+            action = google-chrome
+        }     
+    }
+}
+
+plugin {
+    type = menu
+    config {
+        icon = start-here
+        systemmenu {
+        }
+        separator {
+        }
+        menu {
+            name = Computer
+            icon = computer
+            item {
+                name = Terminal
+                icon = terminal
+                action = x-terminal
+            }
+            item {
+                name = Lock Display
+                icon = gnome-lockscreen
+                action = xtrlock2
+            }
+            separator {
+            }
+            item {
+                name = Reboot
+                icon = gnome-session-reboot
+                action = sudo reboot
+            }
+        
+        }
+    }
+}
+
+
+plugin {
+    type = icons
+    expand = false
+    padding = 0
+    config {
+        DefaultIcon = /usr/share/fbpanel/images/default.xpm
+        application {
+            icon = gnome-terminal
+            ClassName = XTerm
+        }
+        application {
+            icon = gnome-terminal
+            ClassName = mlterm
+        }
+        application {
+            icon = gnome-terminal
+            ClassName = URxvt
+        }
+        application {
+            icon = gnome-emacs
+            ClassName = Emacs
+        }
+        application {
+            icon = mozilla-firefox
+            ClassName = Firefox-bin
+        }
+        application {
+            icon = mozilla-firefox
+            ClassName = Firefox
+        }
+        application {
+            image = /usr/share/icons/yasis/scalable/apps/gnome-ppp.svg
+            AppName = minicom
+        }
+    }
+}
+
+
