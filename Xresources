@@ -22,8 +22,8 @@ Xcursor.theme: Oxygen_Blue
 ! use this font for 1600x1200
  xterm*VT100*font:-misc-fixed-medium-*-*-*-14-*-*-*-*-*-*-*
 
-xterm*background:tan
-xterm*foreground:wheat
+xterm*background:black
+xterm*foreground:white
 xterm*cursorColor:orchid
 xterm*fullCursor: true
 xterm*saveLines: 2000
