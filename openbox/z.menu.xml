@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu>
+
+<menu id="root-menu" label="bdianni-lnx">
+
+    <item label="xterm"> <action name="Execute"> 
+    <execute>xterm
+    </execute> </action> </item>
+  
+<menu id="bb-menu" label="bb">
+
+    <item label="lb.rdu-gw"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.rdu-gw
+    </execute> </action> </item>
+
+    <item label="lb.critter"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.critter
+    </execute> </action> </item>
+
+    <item label="lb.backbone"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.backbone
+    </execute> </action> </item>
+
+    <item label="lb.desknet"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.desknet
+    </execute> </action> </item>
+
+    <item label="lb.hydra"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.hydra
+    </execute> </action> </item>
+
+    <item label="lb.monster"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.monster
+    </execute> </action> </item>
+
+</menu>
+ 
+<menu id="beta-menu" label="beta">
+
+    <item label="lb.beta"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta
+    </execute> </action> </item>
+
+    <item label="lb.7-9"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.7-9
+    </execute> </action> </item>
+
+    <item label="lb.fake1"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.fake1
+    </execute> </action> </item>
+
+    <item label="lb.orphan5"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.orphan5
+    </execute> </action> </item>
+
+    <item label="lb.orphan6"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.orphan6
+    </execute> </action> </item>
+
+    <item label="lb.beta.sw5"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta.sw5
+    </execute> </action> </item>
+
+    <item label="lb.beta.sw6"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta.sw6
+    </execute> </action> </item>
+
+    <item label="lb.beta.sw7"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta.sw7
+    </execute> </action> </item>
+
+    <item label="lb.beta.sw8"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta.sw8
+    </execute> </action> </item>
+
+    <item label="lb.beta.sw9"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta.sw9
+    </execute> </action> </item>
+
+    <item label="lb.beta.sw10"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.beta.sw10
+    </execute> </action> </item>
+
+</menu>
+
+<menu id="host-menu" label="host">
+
+    <item label="lb.lab1"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.lab1
+    </execute> </action> </item>
+
+    <item label="lb.lab3"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.lab3
+    </execute> </action> </item>
+
+    <item label="lb.lab4"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.lab4
+    </execute> </action> </item>
+
+    <item label="lb.fake1"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.fake1
+    </execute> </action> </item>
+
+</menu>
+
+<menu id="sw-menu" label="sw">
+
+    <item label="lb.sw1"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw1
+    </execute> </action> </item>
+
+    <item label="lb.sw2"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw2
+    </execute> </action> </item>
+
+    <item label="lb.sw3"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw3
+    </execute> </action> </item>
+
+    <item label="lb.sw4"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw4
+    </execute> </action> </item>
+
+    <item label="lb.sw5"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw5
+    </execute> </action> </item>
+
+    <item label="lb.sw6"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw6
+    </execute> </action> </item>
+
+    <item label="lb.sw7"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw7
+    </execute> </action> </item>
+
+    <item label="lb.sw8"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw8
+    </execute> </action> </item>
+
+    <item label="lb.sw9"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw9
+    </execute> </action> </item>
+
+    <item label="lb.sw10"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw10
+    </execute> </action> </item>
+
+    <item label="lb.sw11"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw11
+    </execute> </action> </item>
+
+    <item label="lb.sw12"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw12
+    </execute> </action> </item>
+
+    <item label="lb.sw13"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw13
+    </execute> </action> </item>
+
+    <item label="lb.sw14"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw14
+    </execute> </action> </item>
+
+    <item label="lb.sw15"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw15
+    </execute> </action> </item>
+
+    <item label="lb.sw16"> <action name="Execute"> 
+    <execute>~/lab/menu/lb.sw16
+    </execute> </action> </item>
+
+</menu>
+  
+<separator />
+
+    <item label="ReConfig">
+    <action name="Reconfigure" />
+    </item>
+
+    <item label="LogOut">
+    <action name="Exit">
+    <prompt>yes</prompt>
+    </action>
+    </item>
+
+</menu>
+</openbox_menu>
+
