@@ -33,7 +33,7 @@ xterm*visualBell: true
 ! xterm*geometry: 80x25+20+20
 ! xterm*titleBar: false
 ! xterm*reverseVideo: false
-! xterm*scrollBar: false
+xterm*scrollBar:  true
 ! xterm*reverseWrap: true
 ! xterm*scrollTtyOutput: off
 ! xterm*scrollKey: on

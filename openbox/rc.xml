@@ -90,12 +90,13 @@
 
    use obconf if you want to change these without having to log out
    and back in -->
-    <number>3</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>rtr</name>
-      <name>host</name>
-      <name>play</name>
+      <name>space1</name>
+      <name>space2</name>
+      <name>space3</name>
+      <name>space4</name>
     </names>
     <popupTime>1005</popupTime>
   </desktops>
