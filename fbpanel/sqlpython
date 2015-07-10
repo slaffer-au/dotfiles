@@ -150,20 +150,20 @@ Plugin {
     }
 }
 
-Plugin {
-    type = net
-    expand = false
-    padding = 0
-    config {
-        #interface = ppp0
-        interface = wlan0
-        # set connection limits to make traffic graph more accurate
-        TxLimit = 20
-        RxLimit = 190
-        TxColor = violet
-        RxColor = blue
-    }
-}
+#  Plugin {
+    #  type = net
+    #  expand = false
+    #  padding = 0
+    #  config {
+        #  #interface = ppp0
+        #  interface = wlan0
+        #  # set connection limits to make traffic graph more accurate
+        #  TxLimit = 20
+        #  RxLimit = 190
+        #  TxColor = violet
+        #  RxColor = blue
+    #  }
+#  }
 
 
 Plugin {
