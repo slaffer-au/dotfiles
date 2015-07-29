@@ -8,7 +8,7 @@ PS1="\u@\[\e[32;1m\]\h\[\e[0m\]:\w\\$ "
 
 alias ls='/bin/ls -G'
 alias l='ls -lG'
-alias ll='ls  -al | more -f'
+alias ll='ls  -alG | more -f'
 alias lt='ls  -lGrt'
 alias lz='ls  -lGrS'
 alias lsd='ls  -d   */ .*/'
