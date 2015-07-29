@@ -33,6 +33,11 @@
 
 set number
 
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 syntax enable
 
 if !has("gui_running") && &t_Co != 88 && &t_Co != 256
