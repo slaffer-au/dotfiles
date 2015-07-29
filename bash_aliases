@@ -8,6 +8,7 @@ alias l='ls -a --color=auto'
 alias ls='ls --color=auto'
 alias la='ls -la --color=auto'
 alias ll='ls -la --color=auto'
+alias cl='clear'
 
 # RDU Switches
 alias sw1='ssh root@sw1'
